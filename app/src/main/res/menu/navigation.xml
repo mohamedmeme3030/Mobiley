@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/navigation_home"
+        android:icon="@drawable/ic_home_black_24dp"
+        android:title="Home"
+        />
+    <item
+        android:id="@+id/navigation_brows"
+        android:icon="@drawable/ic_dashboard_black_24dp"
+        android:title="Brows" />
+    <item
+        android:id="@+id/navigation_add"
+        android:icon="@drawable/ic_add_circle_outline_black_24dp"
+        android:title="Submit an Add" />
+    <item
+        android:id="@+id/navigation_account"
+        android:icon="@drawable/ic_person_black_24dp"
+        android:title="Account"/>
+</menu>

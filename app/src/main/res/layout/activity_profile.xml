@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layoutDirection="ltr"
+    android:layout_alignParentRight="true"
+    tools:context=".Activity.ProfileActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:background="@color/colorPrimary">
+            <TextView
+                android:id="@+id/tv_main_profile"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6dp"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:text="@string/app_name"
+                android:textColor="@color/colorbackground"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/tv_your_profile"
+            android:textColor="@color/colorNavAccentUnselected"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Your Profile"
+            android:layout_margin="10dp"
+            android:textSize="25sp"/>
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/iv_profile_image"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_gravity="center" />
+        <TextView
+            android:id="@+id/tv_profile_bio"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="10dp"
+            android:layout_margin="10dp"
+            android:padding="10dp"
+            android:text="Mohamed"
+            android:gravity="center_vertical|center_horizontal"
+            android:textStyle="bold"
+            android:textSize="16dp"
+            android:textColor="#000"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:text="Posts"
+            android:textColor="@color/colorNavAccentUnselected"
+            android:layout_marginTop="5dp"
+            android:layout_marginStart="10dp"/>
+        <ProgressBar
+            android:id="@+id/loading"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            style="@style/Base.Widget.AppCompat.ProgressBar.Horizontal"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_gravity="center"/>
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/rv_profile_posts"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+
+
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>

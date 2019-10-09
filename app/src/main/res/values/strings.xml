@@ -1,0 +1,69 @@
+<resources>
+    <string name="app_name">Mobiley</string>
+    <string name="minimum_password">Minimum Password</string>
+    <string name="auth_failed">Authentication failed, check your email and password or sign up</string>
+    <string-array name="condition">
+        <item>Condition</item>
+        <item>New</item>
+        <item>Used</item>
+    </string-array>
+    <string-array name="brands">
+        <item>Brands</item>
+        <item>iPhone</item>
+        <item>Samsung</item>
+        <item>Huawei</item>
+        <item>Google</item>
+        <item>Sony</item>
+        <item>Nokia</item>
+        <item>Honor</item>
+        <item>LG</item>
+        <item>OnePlus</item>
+        <item>Doro</item>
+        <item>Motorola</item>
+        <item>CAT</item>
+        <item>ZTE</item>
+        <item>BlackBerry</item>
+        <item>Xiaomi</item>
+        <item>Alcatel</item>
+        <item>Vodafone</item>
+        <item>Acer</item>
+        <item>Binatone</item>
+        <item>Wileyfox</item>
+        <item>TOSHIBA</item>
+        <item>VIVO</item>
+        <item>YEZZ</item>
+        <item>WIKO</item>
+        <item>TECNO</item>
+        <item>VERYCOOL</item>
+        <item>WIKO</item>
+        <item>SEWON</item>
+        <item>REALME</item>
+        <item>BLU</item>
+        <item>ALLVIEW</item>
+        <item>other</item>
+    </string-array>
+    <string-array name="Color">
+
+        <item>Color</item>
+        <item>Gold</item>
+        <item>Grey</item>
+        <item>Rose Gold</item>
+        <item>Silver</item>
+        <item>Black</item>
+        <item>other</item>
+    </string-array>
+    <string-array name="StorageCapacity">
+
+        <item>Storage Capacity</item>
+        <item>16 GB</item>
+        <item>32 GB</item>
+        <item>64 GB</item>
+        <item>128 GB</item>
+        <item>other</item>
+    </string-array>
+    <string name="title_activity_maps">Map</string>
+    <string name="access_token">pk.eyJ1IjoibW9oYW1lZG1lbWUzMDMwIiwiYSI6ImNqdDV3MmR0dTBhdjI0NHAzanlxZHJuaDUifQ.BZULZOMLY5lSIg-EOCepzw</string>
+    <string name="user_location_permission_explanation">we Need Access Your Location</string>
+    <string name="user_location_permission_not_granted">Location Access Successfully</string>
+
+</resources>

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back"
+    tools:context=".Fragment.MainFragment">
+
+    <TextView
+        android:id="@+id/tv_main"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="96dp"
+        android:gravity="center"
+        android:text="@string/app_name"
+        android:textColor="@color/colorbackground"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tv_welcome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="55dp"
+        android:gravity="center"
+        android:text="Welcome to"
+        android:textColor="@android:color/white"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tv_target"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:textSize="18sp"
+        android:gravity="center"
+        android:text="this app help you to buy the best mobile and sell it "
+        android:textColor="@android:color/white"
+        />
+
+    <TextView
+        android:id="@+id/tv_purpose"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="135dp"
+        android:text="what is the using from app"
+        android:textColor="@android:color/white"
+        android:textStyle="bold" />
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:gravity="center_horizontal|center_vertical"
+    android:layout_alignParentBottom="true"
+    android:layout_marginBottom="42dp"
+
+    >
+    <Button
+        android:id="@+id/btn_saller"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/background_button"
+        android:text="Seller"
+        android:layout_marginEnd="100dp"
+        android:textColor="@android:color/white"
+        android:textAllCaps="false"/>
+
+    <Button
+        android:id="@+id/btn_buyer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/background_button"
+        android:text="buyer"
+        android:textAllCaps="false"
+        android:textColor="@android:color/white"
+        />
+</LinearLayout>
+</RelativeLayout>
